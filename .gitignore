@@ -1,0 +1,7 @@
+# IDE - VS2017
+.vs/
+*.user
+
+# System Files
+.DS_Store
+Thumbs.db

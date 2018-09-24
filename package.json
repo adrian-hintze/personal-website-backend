@@ -1,0 +1,23 @@
+{
+    "name": "personal-website-backend",
+    "version": "0.0.1",
+    "author": {
+        "name": "Adrian Hintze"
+    },
+    "private": true,
+    "engines": {
+        "node": "10.11.0",
+        "npm": "6.4.1"
+    },
+    "scripts": {
+        "start": "build/server.js"
+    },
+    "dependencies": {
+        "express": "4.16.3"
+    },
+    "devDependencies": {
+        "@types/express": "4.16.0",
+        "@types/node": "10.11.0",
+        "typescript": "3.0.3"
+    }
+}
