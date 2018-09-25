@@ -1,2 +1,11 @@
 runtime: nodejs
 env: flex
+skip_files:
+    - ^LICENSE$
+    - ^README.md$
+    - ^tsconfig.json$
+    - ^.editorconfig$
+    - ^.gitignore$
+    - ^src$
+    - ^node_modules$
+    - ^.git$
