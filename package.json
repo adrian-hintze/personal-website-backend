@@ -10,7 +10,8 @@
         "npm": "6.4.1"
     },
     "scripts": {
-        "start": "build/server.js"
+        "start": "node build/server.js",
+        "build": "tsc"
     },
     "dependencies": {
         "express": "4.16.3"
