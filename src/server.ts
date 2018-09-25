@@ -2,10 +2,16 @@ import * as express from 'express';
 
 const app: express.Express = express();
 
+function forceHttps(req: express.Request, res: express.Response, next: express.NextFunction) {
+    if (req.secure) {
+        return next();
+    };
+
+    res.redirect('https://' + req.hostname + req.url);
+}
+
 // force HTTPS, check if it can be done in app engine
-app.get('*', (req, res) => {
-    res.redirect('https://' + req.headers.host + req.url);
-})
+app.use(forceHttps);
 
 app.get('/', (req, res) => res.send('Under construction...'))
 
