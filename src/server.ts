@@ -9,5 +9,5 @@ app.get('*', (req, res) => {
 
 app.get('/', (req, res) => res.send('Under construction...'))
 
-const PORT = process.env.PORT || 8080;
+const port = process.env.PORT || 8080;
 app.listen(port, () => console.log(`App listening on port ${port}.`));
