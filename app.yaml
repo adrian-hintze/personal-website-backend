@@ -1,5 +1,4 @@
-runtime: nodejs
-env: flex
+runtime: nodejs8
 skip_files:
     - ^LICENSE$
     - ^README.md$
