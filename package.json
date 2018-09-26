@@ -11,7 +11,7 @@
     },
     "scripts": {
         "start": "node build/server.js",
-        "deploy": "npm run build && gcloud app deploy",
+        "deploy": "npm install && npm run build && gcloud app deploy",
         "build": "tsc"
     },
     "dependencies": {
