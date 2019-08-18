@@ -4,9 +4,11 @@ build/
 # npm
 node_modules/
 
-# IDE - VS2017
+# IDE - VS
 .vs/
 *.user
+bin/
+obj/
 
 # System Files
 .DS_Store
