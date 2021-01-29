@@ -6,4 +6,8 @@ tsconfig.json
 src/
 node_modules/
 .git/
-back-end.njsprj
+back-end.njsproj
+back-end.njsproj.user
+obj/
+.vs/
+bin/
